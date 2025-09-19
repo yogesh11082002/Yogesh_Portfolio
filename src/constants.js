@@ -34,25 +34,24 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
+import webverseLogo from './assets/company_logo/mango.jpeg';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import glaLogo from './assets/education_logo/abes.jpeg';
+import vpsLogo from './assets/education_logo/sbs.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import csprepLogo from './assets/work_logo/quick.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
+import taskremLogo from './assets/work_logo/echoblog.png';
 import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
+import webverLogo from './assets/work_logo/yogeshh.png';
+import cmLogo from './assets/work_logo/nexa.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import removebgLogo from './assets/work_logo/gocart.png';
 
 
 export const SkillsInfo = [
@@ -113,8 +112,8 @@ export const SkillsInfo = [
       id: 0,
       img: webverseLogo,
       role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
+      company: "MangosOrange",
+      date: " OCtober 2024 - April 2025",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -134,7 +133,7 @@ export const SkillsInfo = [
       img: agcLogo,
       role: "Fullstack Engineer",
       company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
+      date: "July 2024 - September 2024",
       desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
       skills: [
         "ReactJS",
@@ -150,8 +149,8 @@ export const SkillsInfo = [
       id: 2,
       img: newtonschoolLogo,
       role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
+      company: "Timmerman Construction",
+      date: "September 2022 - February 2023",
       desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
       skills: [
         "HTML",
@@ -168,44 +167,87 @@ export const SkillsInfo = [
     {
       id: 0,
       img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      school: "ABESIT Ghaziabad, Uttar Pradesh",
+      date: "Oct 2021 - June 2025",
+      grade: "7.51 CGPA",
+      desc: "I am pursuing my Bachelor's degree (B.Tech) in Computer Science from ABESIT, Ghaziabad, Uttar Pradesh. Throughout my academic journey, I have built a strong foundation in programming, software development, and core computer science principles. My coursework includes subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I have actively participated in workshops, hackathons, and technical events that helped me enhance my practical knowledge and problem-solving skills. My experience at ABESIT has been pivotal in shaping my technical expertise and preparing me for professional growth.",
+      degree: "Bachelor Of Technology - B.Tech (CSE)",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: vpsLogo,
+      school: "S.B.S. Public School, Salempur (Hathras)",
+      date: "Apr 2019 - March 2020",
+      grade: "78%",
+      desc: "I completed my Class 12 education from S.B.S. Public School, Salempur, under the CBSE board, with a focus on Physics, Chemistry, and Mathematics (PCM) along with Computer Science. This academic foundation strengthened my analytical, logical, and problem-solving abilities, while also nurturing my interest in technology and programming.",
+      degree: "CBSE(XII) - PCM with Computer Science",
     },
     {
       id: 2,
       img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
+      school: "S.B.S. Public School, Salempur (Hathras)",
       date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+      grade: "90%",
+      desc: "I completed my Class 10 education from S.B.S. Public School, Salempur, under the CBSE board, with a strong emphasis on Science and Computer. This stage of my academic journey built my curiosity for technology, strengthened my fundamentals, and laid the foundation for pursuing advanced studies in computer science.",
       degree: "CBSE(X), Science with Computer Application",
     },
   ];
   
   export const projects = [
+    
+  
     {
       id: 0,
+      title: "Nexa AI - AI Powered  Website",
+      description:
+       "An efficient and customizable AI-powered content generation platform. Built using the PERN stack with advanced AI models, it provides robust features for image editing, background removal, object detection, and article generation, helping users create high-quality content with ease and precision.",
+       image: cmLogo,
+      tags: ["React JS", "Node.js", "NPM", "Validation"],
+      webapp: "https://nexa-ai-neon-yogesh.vercel.app/",
+    },
+    {
+      id: 1,
+      title: "Quickcart - Website",
+      description:
+        "A fast and user-friendly e-commerce website designed to provide a seamless shopping experience. Built using the MERN stack, it offers features like product browsing, secure payments, cart management, and order tracking, making online shopping efficient and convenient for users.",
+        image: csprepLogo,
+      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      webapp: "https://quickcart-yogesh.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "EchoBlog - Full Stack Blog Website",
+      description:" A comprehensive full-stack blog platform that allows users to create, manage, and share blog posts. Built with the MERN stack, it features user authentication, a rich text editor, and a responsive design, providing an engaging and interactive blogging experience.",
+      image: taskremLogo,
+      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+      github: "https://github.com/codingmastr/Webverse-Digital",
+      webapp: "https://echoblog-yogesh.vercel.app/",
+    }
+    ,
+    {
+      id: 3,
+      title: " Gocart. - The Ultimate  E-Commerce Website",
+      description:"A fast and user-friendly e-commerce website designed to provide a seamless shopping experience. Built using the MERN stack, it offers features like product browsing, secure payments, cart management, and order tracking, making online shopping efficient and convenient for users.",
+         image: removebgLogo,
+      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+      github: "https://github.com/codingmastr/Webverse-Digital",
+      webapp: "https://gocart-yogesh.vercel.app/",
+    },
+   
+   
+    {
+      id: 4,
+      title: "Portfolio-Website  ",
+      description:
+       "A modern and responsive portfolio website designed to showcase projects, skills, and achievements. Built using React.js and Tailwind CSS, it features smooth navigation, interactive UI elements, and a clean design to provide visitors with an engaging and professional experience.",
+       image: webverLogo,
+      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+      github: "https://github.com/codingmastr/Image-Search-App",
+      webapp: "https://yogesh-sengar.vercel.app/",
+    },
+    {
+      id: 5,
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -214,49 +256,18 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
       webapp: "https://githubprofiledetective.netlify.app/",
     },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
+     {
+      id: 6,
+      title: " Movie Website ",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
       image: movierecLogo,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      webapp: "https://mymovieapp-yogesh.vercel.app/",
     },
     {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-   
-    {
-      id: 6,
+      id: 7,
       title: "Image Search App",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
@@ -264,5 +275,5 @@ export const SkillsInfo = [
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://imagsearch.netlify.app/",
-    }
+    },
   ];  

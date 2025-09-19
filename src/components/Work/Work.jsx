@@ -256,8 +256,8 @@ const Work = () => {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex gap-4 mt-4">
-                  <a
+                <div className="flex gap-4 justify-center mt-4">
+                  {/* <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -265,7 +265,7 @@ const Work = () => {
                                text-center font-semibold transition"
                   >
                     View Code
-                  </a>
+                  </a> */}
                   <a
                     href={selectedProject.webapp}
                     target="_blank"
