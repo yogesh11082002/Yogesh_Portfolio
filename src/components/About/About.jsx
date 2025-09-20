@@ -124,7 +124,7 @@ const About = () => {
           </h1>
 
           {/* Name */}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 leading-snug">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold text-white mb-3 leading-snug">
             Yogesh Thakur
           </h2>
 
@@ -183,7 +183,7 @@ const About = () => {
           ) : (
             // ✅ For Tablet & Laptop (Tilt Enabled)
             <Tilt
-              className="w-64 h-64 sm:w-64 sm:h-64 md:w-[20rem] md:h-[20rem] border-4 border-purple-700 rounded-full"
+              className="w-56 h-56 sm:w-64 sm:h-64 md:w-[20rem] md:h-[20rem] border-4 border-purple-700 rounded-full"
               tiltMaxAngleX={20}
               tiltMaxAngleY={20}
               perspective={1000}
