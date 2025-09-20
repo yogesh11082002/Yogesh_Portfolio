@@ -210,7 +210,7 @@ export const SkillsInfo = [
       description:
         "A fast and user-friendly e-commerce website designed to provide a seamless shopping experience. Built using the MERN stack, it offers features like product browsing, secure payments, cart management, and order tracking, making online shopping efficient and convenient for users.",
         image: csprepLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+      tags: ["JavaScript", "Chrome Extension", "Next JS" , "HTML", "CSS"],
       github: "https://github.com/codingmastr/Task-Reminder-Tool",
       webapp: "https://quickcart-yogesh.vercel.app/",
     },
@@ -219,7 +219,7 @@ export const SkillsInfo = [
       title: "EchoBlog - Full Stack Blog Website",
       description:" A comprehensive full-stack blog platform that allows users to create, manage, and share blog posts. Built with the MERN stack, it features user authentication, a rich text editor, and a responsive design, providing an engaging and interactive blogging experience.",
       image: taskremLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+      tags: ["React JS", "Node.js", "NPM", "Validation", "JavaScript", "Framer Motion"],
       github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://echoblog-yogesh.vercel.app/",
     }
@@ -229,7 +229,7 @@ export const SkillsInfo = [
       title: " Gocart. - The Ultimate  E-Commerce Website",
       description:"A fast and user-friendly e-commerce website designed to provide a seamless shopping experience. Built using the MERN stack, it offers features like product browsing, secure payments, cart management, and order tracking, making online shopping efficient and convenient for users.",
          image: removebgLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+      tags: ["HTML", "CSS", "Next JS", "JavaScript", "Framer Motion"],
       github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://gocart-yogesh.vercel.app/",
     },
