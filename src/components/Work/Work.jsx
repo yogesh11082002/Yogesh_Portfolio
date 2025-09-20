@@ -81,33 +81,33 @@
 
 //       {/* Modal */}
 //       {selectedProject && (
-//         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-//           <div className="bg-gray-900 rounded-2xl shadow-2xl w-full max-w-4xl overflow-hidden relative animate-fadeIn">
+//         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4 overflow-y-auto">
+//           <div className="bg-gray-900 rounded-2xl shadow-2xl w-full max-w-4xl relative animate-fadeIn">
 //             {/* Close Button */}
 //             <button
 //               onClick={handleCloseModal}
-//               className="absolute top-4 right-6 text-white text-3xl font-bold hover:text-purple-500"
+//               className="absolute top-3 right-4 text-white text-3xl font-bold hover:text-purple-500 z-10"
 //             >
 //               &times;
 //             </button>
 
 //             <div className="flex flex-col lg:flex-row">
 //               {/* Project Image */}
-//               <div className="lg:w-1/2 w-full flex justify-center bg-gray-900 p-4">
+//               <div className="w-full lg:w-1/2 flex justify-center bg-gray-900 p-4">
 //                 <img
 //                   src={selectedProject.image}
 //                   alt={selectedProject.title}
-//                   className="w-full h-[300px] lg:h-full object-contain rounded-xl"
+//                   className="w-full h-56 sm:h-72 lg:h-full object-contain rounded-xl"
 //                 />
 //               </div>
 
 //               {/* Project Details */}
-//               <div className="lg:w-1/2 w-full lg:p-8 p-6 flex flex-col justify-between">
+//               <div className="w-full lg:w-1/2 lg:p-8 p-6 flex flex-col justify-between">
 //                 <div>
-//                   <h3 className="text-3xl font-bold text-white mb-4">
+//                   <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
 //                     {selectedProject.title}
 //                   </h3>
-//                   <p className="text-gray-400 mb-6 text-base leading-relaxed">
+//                   <p className="text-gray-400 mb-6 text-sm sm:text-base leading-relaxed">
 //                     {selectedProject.description}
 //                   </p>
 //                   <div className="flex flex-wrap gap-2 mb-6">
@@ -124,15 +124,6 @@
 
 //                 {/* Buttons */}
 //                 <div className="flex gap-4 justify-center mt-4">
-//                   {/* <a
-//                     href={selectedProject.github}
-//                     target="_blank"
-//                     rel="noopener noreferrer"
-//                     className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-300 px-4 py-2 rounded-xl 
-//                                text-center font-semibold transition"
-//                   >
-//                     View Code
-//                   </a> */}
 //                   <a
 //                     href={selectedProject.webapp}
 //                     target="_blank"
@@ -153,6 +144,7 @@
 // };
 
 // export default Work;
+
 
 import React, { useState, useEffect } from "react";
 import { projects } from "../../constants";
@@ -237,8 +229,11 @@ const Work = () => {
 
       {/* Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4 overflow-y-auto">
-          <div className="bg-gray-900 rounded-2xl shadow-2xl w-full max-w-4xl relative animate-fadeIn">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
+          <div
+            className="bg-gray-900 rounded-2xl shadow-2xl w-full max-w-4xl relative animate-fadeIn 
+                       max-h-[90vh] overflow-y-auto"
+          >
             {/* Close Button */}
             <button
               onClick={handleCloseModal}
@@ -253,7 +248,7 @@ const Work = () => {
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="w-full h-56 sm:h-72 lg:h-full object-contain rounded-xl"
+                  className="w-full max-h-60 sm:max-h-72 lg:max-h-full object-contain rounded-xl"
                 />
               </div>
 
@@ -284,7 +279,7 @@ const Work = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white px-4 py-2 rounded-xl 
+                    className="w-full sm:w-1/2 bg-purple-600 hover:bg-purple-800 text-white px-4 py-2 rounded-xl 
                                text-center font-semibold transition"
                   >
                     View Live
@@ -300,4 +295,3 @@ const Work = () => {
 };
 
 export default Work;
-
