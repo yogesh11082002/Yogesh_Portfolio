@@ -178,7 +178,7 @@ const About = () => {
             <img
               src={profileImage}
               alt="Yogesh Thakur"
-              className="w-64 h-64 sm:w-64 sm:h-64 md:w-[20rem] md:h-[20rem] border-4 border-purple-700 rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              className="w-48 h-48 sm:w-64 sm:h-64 md:w-[20rem] md:h-[20rem] border-4 border-purple-700 rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           ) : (
             // ✅ For Tablet & Laptop (Tilt Enabled)
