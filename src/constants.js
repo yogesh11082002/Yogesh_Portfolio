@@ -204,18 +204,9 @@ export const SkillsInfo = [
       tags: ["React JS", "Node.js", "NPM", "Validation"],
       webapp: "https://nexa-ai-neon-yogesh.vercel.app/",
     },
+   
     {
       id: 1,
-      title: "Quickcart - Website",
-      description:
-        "A fast and user-friendly e-commerce website designed to provide a seamless shopping experience. Built using the MERN stack, it offers features like product browsing, secure payments, cart management, and order tracking, making online shopping efficient and convenient for users.",
-        image: csprepLogo,
-      tags: ["JavaScript", "Chrome Extension", "Next JS" , "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "https://quickcart-yogesh.vercel.app/",
-    },
-    {
-      id: 2,
       title: "EchoBlog - Full Stack Blog Website",
       description:" A comprehensive full-stack blog platform that allows users to create, manage, and share blog posts. Built with the MERN stack, it features user authentication, a rich text editor, and a responsive design, providing an engaging and interactive blogging experience.",
       image: taskremLogo,
@@ -225,7 +216,7 @@ export const SkillsInfo = [
     }
     ,
     {
-      id: 3,
+      id: 2,
       title: " Gocart. - The Ultimate  E-Commerce Website",
       description:"A fast and user-friendly e-commerce website designed to provide a seamless shopping experience. Built using the MERN stack, it offers features like product browsing, secure payments, cart management, and order tracking, making online shopping efficient and convenient for users.",
          image: removebgLogo,
@@ -236,7 +227,7 @@ export const SkillsInfo = [
    
    
     {
-      id: 4,
+      id: 3,
       title: "Portfolio-Website  ",
       description:
        "A modern and responsive portfolio website designed to showcase projects, skills, and achievements. Built using React.js and Tailwind CSS, it features smooth navigation, interactive UI elements, and a clean design to provide visitors with an engaging and professional experience.",
@@ -244,6 +235,16 @@ export const SkillsInfo = [
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://yogesh-sengar.vercel.app/",
+    },
+     {
+      id: 4,
+      title: "Quickcart - Website",
+      description:
+        "A fast and user-friendly e-commerce website designed to provide a seamless shopping experience. Built using the MERN stack, it offers features like product browsing, secure payments, cart management, and order tracking, making online shopping efficient and convenient for users.",
+        image: csprepLogo,
+      tags: ["JavaScript", "Chrome Extension", "Next JS" , "HTML", "CSS"],
+      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      webapp: "https://quickcart-yogesh.vercel.app/",
     },
     {
       id: 5,
